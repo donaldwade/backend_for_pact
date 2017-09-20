@@ -23,7 +23,8 @@ func main() {
   fmt.Printf("%+v", endPoint)
   fmt.Println(string(jsonString))
   e.GET("/go/test", func(c echo.Context) error {
-    return c.String(http.StatusOK, string(jsonString))
+    // c.Response.Header().Set(echo.HeaderContentType, 
+    return c.JSON(http.StatusOK, endPoint)
   })
   e.Logger.Fatal(e.Start(":1323"))
 }

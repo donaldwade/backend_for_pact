@@ -16,5 +16,12 @@ go get -u github.com/labstack/echo/...
 
 ## Install pact for golang
 
-Follow the instructions [here](https://github.com/pact-foundation/pact-go)
+Follow the instructions [here](https://github.com/pact-foundation/pact-go).
+
+## How to run Pact Go
+
+This is a two step process.
+
+1.  Run `pact-go daemon` in its own shell.
+2.  Create your pact Consumer/Provider tests. The default port is `6666`
 
