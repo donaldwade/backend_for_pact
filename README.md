@@ -16,5 +16,5 @@ go get -u github.com/labstack/echo/...
 
 ## Install pact for golang
 
-Follow the instructions [here]: (https://github.com/pact-foundation/pact-go)
+Follow the instructions [here](https://github.com/pact-foundation/pact-go)
 
