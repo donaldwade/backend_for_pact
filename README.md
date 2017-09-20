@@ -9,3 +9,5 @@ echo 'PATH=$PATH:/usr/local/go/bin' >> ~/.bashrc
 source ~/.bashrc
 ```
 
+## Install echo server
+
