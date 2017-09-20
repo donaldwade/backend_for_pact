@@ -10,4 +10,11 @@ source ~/.bashrc
 ```
 
 ## Install echo server
+```
+go get -u github.com/labstack/echo/...
+```
+
+## Install pact for golang
+
+Follow the instructions [here]: (https://github.com/pact-foundation/pact-go)
 
